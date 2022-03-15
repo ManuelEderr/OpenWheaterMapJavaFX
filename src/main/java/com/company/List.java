@@ -28,7 +28,7 @@ public class List {
     private Integer visibility;
     @SerializedName("pop")
     @Expose
-    private Integer pop;
+    private Double pop;
     @SerializedName("sys")
     @Expose
     private Sys sys;
@@ -84,11 +84,11 @@ public class List {
         this.visibility = visibility;
     }
 
-    public Integer getPop() {
+    public Double getPop() {
         return pop;
     }
 
-    public void setPop(Integer pop) {
+    public void setPop(Double pop) {
         this.pop = pop;
     }
 
